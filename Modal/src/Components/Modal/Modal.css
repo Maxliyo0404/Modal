@@ -60,7 +60,7 @@
     border-radius: 10px;
     box-shadow:  0 4px 10px rgba(0, 0, 0, 0.1) ;
     &:hover{
-        background: #74c3c;
+        background: #e74c3c;
         transform: scale(0.98);
         color: yellowgreen;
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
