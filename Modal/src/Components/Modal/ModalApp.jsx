@@ -1,4 +1,9 @@
 import "/.Modal.css";
 function ModalApp (){
-    return
+    return (
+        <>
+        
+        </>
+    )
 }
+export default ModalApp:
