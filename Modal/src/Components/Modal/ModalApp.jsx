@@ -1,2 +1,4 @@
 import "/.Modal.css";
-function
+function ModalApp (){
+    return
+}
