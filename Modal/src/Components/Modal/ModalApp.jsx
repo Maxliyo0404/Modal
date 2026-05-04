@@ -4,7 +4,7 @@ function ModalApp (){
     const [modal, setModL] = useState(false);
     return (
         <>
-         <h1 className="title">Mo</h1>
+         <h1 className="title">Modal  Verbs</h1>
         </>
     )
 }
