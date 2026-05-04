@@ -7,6 +7,13 @@ function ModalApp (){
         <div className="container">
          <h1 className="title">Modal  Verbs</h1>
          <button className="btn" onClick={()=> setModL(true)}></button>
+         {
+            modal && (
+                <div className="box">
+                    <h2></h2>
+                </div>
+            )
+         }
          </div>
         </>
     )
