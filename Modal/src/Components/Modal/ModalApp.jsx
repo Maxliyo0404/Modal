@@ -11,7 +11,7 @@ function ModalApp (){
             modal && (
                 <div className="box">
                     <h2 className="box-title">Modal List</h2>
-                    <button></button>
+                    <button className="box-btn" onClick={()=> setModL(false)}>Delete</button>
                 </div>
             )
          }
