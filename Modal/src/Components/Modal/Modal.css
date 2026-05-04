@@ -61,7 +61,7 @@
     box-shadow:  0 4px 10px rgba(0, 0, 0, 0.1) ;
     &:hover{
         background: #e74c3c;
-        transform: scale(0.98);
+        transform: scale(1.05);
         color: yellowgreen;
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
         transform: translate(-2px);
