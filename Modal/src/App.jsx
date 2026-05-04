@@ -1,4 +1,4 @@
-import Modal from "./Components/Modal";
+import Modal from "./Components/ModalApp";
  function App (){
   return (
     <>
