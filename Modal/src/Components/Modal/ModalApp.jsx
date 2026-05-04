@@ -10,7 +10,8 @@ function ModalApp (){
          {
             modal && (
                 <div className="box">
-                    <h2 className="box-title"></h2>
+                    <h2 className="box-title">Modal List</h2>
+                    <button></button>
                 </div>
             )
          }
