@@ -59,6 +59,7 @@
     transition: 0.3s ease;
     border-radius: 10px;
     box-shadow:  0 4px 10px rgba(0, 0, 0, 0.1) ;
+    border: 2px solid;
     &:hover{
         background: #e74c3c;
         transform: scale(1.05);
