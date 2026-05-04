@@ -47,5 +47,21 @@
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 20px;
-    
+
+}
+.box-btn{
+    background: none;
+    border:  2px solid #2c3e50;
+    color: #2c3e50;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 6px;
+    box-shadow:  0 4px 10px rgba(0, 0, 0, 0.1) ;
+    &:hover{
+        background: #2c3e50;
+        color: yellowgreen;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        transform: translate(-2px);
+    }
 }
