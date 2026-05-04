@@ -9,3 +9,8 @@
     justify-content: center;
     flex-direction: column;
 }
+.title{
+    font-size: 30px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
