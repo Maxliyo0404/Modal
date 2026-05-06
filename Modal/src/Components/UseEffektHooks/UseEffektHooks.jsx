@@ -1,4 +1,6 @@
+import { useState } from "react";
 import "./UseEffektHooks.css";
  const Card = () => {
-    const 
+    const  [data, setData] = useState([]);
+    
  }
