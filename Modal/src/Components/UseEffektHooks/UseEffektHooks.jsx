@@ -18,7 +18,7 @@ const Card = () => {
           
                 {data.map((el) => (
                     <div className="div" key={el.id}>
-                        <img src={el.avatar} alt={el.name} />
+                        <img className="rasm" src={el.avatar} alt={el.name} />
                         <h1>{el.name}</h1>
                     </div>
                 ))
