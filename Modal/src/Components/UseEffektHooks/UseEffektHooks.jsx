@@ -20,7 +20,8 @@ const Card = () => {
                     <div className="card" key={el.id}>
                         <img className="rasm" src={el.avatar} alt={el.name} />
                         <h1 className="title">{el.name}</h1>
-                        <a href={el.createdAt}></a>
+                      <p class="text">${el.username }</p>
+                     <a class="email" href="#">${el.email}</a>
                     </div>
                 ))
            
