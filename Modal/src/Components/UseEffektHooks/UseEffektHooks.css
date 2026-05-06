@@ -16,7 +16,9 @@
     border-top-right-radius: 12px;
     text-align: center;
     box-shadow: 0 5px 25px grey;
-    t
+    &:hover{
+        
+    }
 }
 .rasm{
     max-width: 100%;
