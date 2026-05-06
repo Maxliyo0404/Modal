@@ -22,4 +22,8 @@
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     height: auto;
+    object-fit: cover;
+}
+.title{
+    font-size: 22px;
 }
