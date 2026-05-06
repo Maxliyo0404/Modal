@@ -6,7 +6,7 @@ const Card = () => {
 
     useEffect(() => {
         fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Students")
-            .then(res => res.json()) 
+            .then(data => data.json()) 
             .then(resData => {
                 setData(resData);
             })
