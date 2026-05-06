@@ -1,23 +1,32 @@
 import { useEffect, useState } from "react";
 import "./UseEffektHooks.css";
- const Card = () => {
-    const  [data, setData] = useState([]);
-    useEffect (() =>{
+
+const Card = () => {
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
         fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Students")
-        .then(data => data.json())
-        .then(data =>{
-            setData(data);
-        })
- 
- },[] )
-   
- return(
-    <div>
-        {data.map(el =>
-            <div className="div" key={el.id}>
-             
-            </div>
-        )}
-    </div>
- )
-}
+            .then(res => res.json()) // "res" yoki "response" deb nomlash qulayroq
+            .then(resData => {
+                setData(resData);
+            })
+            .catch(err => console.error("Xatolik yuz berdi:", err));
+    }, []);
+
+    return (
+        <div>
+            {data.length > 0 ? (
+                data.map((el) => (
+                    <div className="div" key={el.id}>
+                        <img src={el.avatar} alt={el.name} />
+                        <h1>{el.name}</h1>
+                    </div>
+                ))
+            ) : (
+                <p>Yuklanmoqda...</p> // Ma'lumot kelguncha bo'sh turmasligi uchun
+            )}
+        </div>
+    );
+};
+
+export default Card;
