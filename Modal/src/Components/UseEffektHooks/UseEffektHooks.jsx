@@ -10,21 +10,20 @@ const Card = () => {
             .then(resData => {
                 setData(resData);
             })
-            .catch(err => console.error("Xatolik yuz berdi:", err));
+
     }, []);
 
     return (
         <div>
-            {data.length > 0 ? (
-                data.map((el) => (
+          
+                {data.map((el) => (
                     <div className="div" key={el.id}>
                         <img src={el.avatar} alt={el.name} />
                         <h1>{el.name}</h1>
                     </div>
                 ))
-            ) : (
-                <p>Yuklanmoqda...</p> 
-            )}
+           
+            }
         </div>
     );
 };
