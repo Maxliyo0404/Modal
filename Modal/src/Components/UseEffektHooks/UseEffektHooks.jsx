@@ -14,10 +14,10 @@ const Card = () => {
     }, []);
 
     return (
-        <div className="container">
+        <div className="cards">
           
                 {data.map((el) => (
-                    <div className="div" key={el.id}>
+                    <div className="card" key={el.id}>
                         <img className="rasm" src={el.avatar} alt={el.name} />
                         <h1 className="title">{el.name}</h1>
                     </div>
