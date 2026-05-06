@@ -6,7 +6,7 @@ const Card = () => {
 
     useEffect(() => {
         fetch("https://699d9b4283e60a406a46e1ba.mockapi.io/Students")
-            .then(res => res.json()) // "res" yoki "response" deb nomlash qulayroq
+            .then(res => res.json()) 
             .then(resData => {
                 setData(resData);
             })
@@ -23,7 +23,7 @@ const Card = () => {
                     </div>
                 ))
             ) : (
-                <p>Yuklanmoqda...</p> // Ma'lumot kelguncha bo'sh turmasligi uchun
+                <p>Yuklanmoqda...</p> 
             )}
         </div>
     );
