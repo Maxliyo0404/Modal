@@ -17,7 +17,7 @@
     text-align: center;
     box-shadow: 0 5px 25px grey;
     &:hover{
-        transform: scale(1.2);
+        transform: scale(0.8);
     }
 }
 .rasm{
