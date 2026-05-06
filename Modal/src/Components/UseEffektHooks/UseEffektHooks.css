@@ -16,6 +16,7 @@
     border-top-right-radius: 12px;
     text-align: center;
     box-shadow: 0 5px 25px grey;
+    t
 }
 .rasm{
     max-width: 100%;
@@ -26,4 +27,6 @@
 }
 .title{
     font-size: 22px;
+    color: #fff;
+
 }
