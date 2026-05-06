@@ -8,4 +8,6 @@
     gap: 30px;
 
 }
-.rasm
+.rasm{
+    max-width: 100%;
+}
