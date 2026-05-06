@@ -13,7 +13,11 @@ import "./UseEffektHooks.css";
    
  return(
     <div>
-        
+        {data.map(el =>
+            <div className="div" key={el.id}>
+             
+            </div>
+        )}
     </div>
  )
 }
