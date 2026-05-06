@@ -2,12 +2,20 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 100px;
-    background:midnightblue;
+    background:black;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
 
 }
+.card{
+    max-width: 100%;
+    border: 1px solid gray;
+    text-align: center;
+}
 .rasm{
     max-width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: auto;
 }
