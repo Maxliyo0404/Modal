@@ -19,7 +19,7 @@ const Card = () => {
                 {data.map((el) => (
                     <div className="div" key={el.id}>
                         <img className="rasm" src={el.avatar} alt={el.name} />
-                        <h1>{el.name}</h1>
+                        <h1 className="title">{el.name}</h1>
                     </div>
                 ))
            
